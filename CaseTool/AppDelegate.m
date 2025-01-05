@@ -63,6 +63,11 @@
     NSLog(@"Test Func");
 }
 
+- (void) testfunc2
+{
+    NSLog(@"Test func2");
+}
+
 - (IBAction)uppercase:(id)sender {
     
     self.testfunc;
