@@ -70,8 +70,7 @@
 
 - (IBAction)uppercase:(id)sender {
     
-    self.testfunc;
-    
+    [self testfunc];
     NSString *original = [_textFiled stringValue];
     NSString *uppercase = [original uppercaseString];
     
