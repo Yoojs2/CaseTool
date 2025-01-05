@@ -58,7 +58,15 @@
     
 }
 
+- (void) testfunc
+{
+    NSLog(@"Test Func");
+}
+
 - (IBAction)uppercase:(id)sender {
+    
+    self.testfunc;
+    
     NSString *original = [_textFiled stringValue];
     NSString *uppercase = [original uppercaseString];
     
